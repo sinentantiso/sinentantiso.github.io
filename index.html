@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"  sizes="180x180" href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon" 
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/chart-line-solid.svg"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Ntantiso Sinethemba</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Ntantiso <span>Sinethemba</span></h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+      </button>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/img/wfh_1.svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          My name is Ntantiso Sinethemba, Data analyst and developer. 
+          Join me as I share some of my interesting project, 
+          please do not hasitate to call me.
+        </p>
+      </div>
+    </section>
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        Data analytics professional, recently completed the Google Data Analytics Professional Certificate. 
+        Excellent understanding and proficiency of platforms for effective data analyses, including SQL, Google sheets, Excel, Tableau and R. 
+        Strong communication, organisational and analytical skills.
+      </p>
+      <p>
+        I will be using this site to share my most exciting projects, 
+        skills and whole lot more.
+      </p>
+      <p>
+        C: 082 4011 459
+        E: sinethemberntantiso@gmail.com
+      </p>
+    </section>
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Projects section -->
+    <div class="wrapper" id="projects">
+      <h3>Some of my recent projects</h3>
+      <!-- filter Items -->
+      <nav>
+        <div class="items">
+          <span class="item active" data-name="all">All</span>
+          <span class="item" data-name="bag">HTML & CSS</span>
+          <span class="item" data-name="shoe">Javascript</span>
+          <span class="item" data-name="watch">Web Apps</span>
+          <span class="item" data-name="camera">Games</span>
+          <span class="item" data-name="headphone">Visualisation</span>
+        </div>
+      </nav>
+      <!-- filter Images -->
+      <div class="gallery">
+        <div class="image" data-name="bag"><span><img src="portfolio/database.jpg" alt=""></span>123</div>
+        <div class="image" data-name="headphone"><span><img src="portfolio/p7.jpg" alt=""></span>456</div>
+        <div class="image" data-name="camera"><span><img src="portfolio/portfolio-details.jpg" alt="">789</span></div>
+        <div class="image" data-name="shoe"><span><img src="portfolio/this-site.JPG" alt=""></span></div>
+        <div class="image" data-name="headphone"><span><img src="portfolio/word-counter.png" alt=""></span></div>
+        <div class="image" data-name="watch"><span><img src="portfolio/p8.jpg" alt=""></span></div>
+        <div class="image" data-name="shoe"><span><img src="portfolio/p9.jpg" alt=""></span></div>
+        <div class="image" data-name="camera"><span><img src="portfolio/p7.jpg" alt=""></span></div>
+      </div>
+    </div>
+    <!-- fullscreen img preview box -->
+    <div class="preview-box">
+      <div class="details">
+        <span class="title">Image Category: <p></p></span>
+        <span class="icon fas fa-times"></span>
+      </div>
+      <div class="image-box"><img src="" alt=""></div>
+    </div>
+      
+    <!-- Footer section -->
+    <footer class="footer-area" id="contact">
+      <div class="container">
+          <div class="">
+              <div class="social text-center">
+                  <h5 class="text-uppercase">Follow me</h5>
+                  <a href="https://www.facebook.com/sydney.sinethembantantiso" target="_blank"><i class="fab fa-facebook"></i></a>
+                  <a href="https://github.com/SinethembaN27" target="_blank"><i class="fab fa-github"></i></a>
+                  <a href="https://www.linkedin.com/in/sydney-sinethemba-ntantiso-767648116/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                  <a href="https://twitter.com/sydneyntantiso" target="_blank"><i class="fab fa-twitter"></i></a>
+                  <a href="mailto:sinethemberntantiso@gmail.com" target="_blank">Send email<i class="fab fa-envelope"></i></a>
+              </div>
+              <div class="copyrights text-center">
+                  <p class="para">
+                      Copyright ©2022 All rights reserved | This website is made by
+                      <a href="https://www.facebook.com/sydney.sinethembantantiso" target="_blank"><span style="color: var(--primary-color);"> Ntantiso Sinethemba</span></a>
+                  </p>
+              </div>
+          </div>
+      </div>
+  </footer>
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="https://twitter.com/sydneyntantiso" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://www.linkedin.com/in/sydney-sinethemba-ntantiso-767648116/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/SinethembaN27" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    <!-- Scroll up -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
